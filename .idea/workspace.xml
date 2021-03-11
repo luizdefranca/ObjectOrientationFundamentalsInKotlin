@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b86f41d-012a-4f02-a117-4d37fd2fa0da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Kotlin/Bank.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Kotlin/tests/BankTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Kotlin/Account.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Kotlin/Account.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ObjectOrientationFundamentalsInKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/ObjectOrientationFundamentalsInKotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PersonKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PersonKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,11 +38,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Account.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Bank.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Kotlin/tests/BankTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -48,6 +71,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -60,6 +85,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/Kotlin/Person.kt" />
         <option value="$PROJECT_DIR$/src/main/Kotlin/Account.kt" />
+        <option value="$PROJECT_DIR$/src/main/Kotlin/tests/BankTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Kotlin/tests/BankTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/Kotlin/Bank.kt" />
       </list>
     </option>
   </component>
@@ -107,6 +135,14 @@
               <item name="ObjectOrientationFundamentalsInKotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="ObjectOrientationFundamentalsInKotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ObjectOrientationFundamentalsInKotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ObjectOrientationFundamentalsInKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -118,7 +154,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615478734589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615479760023" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -135,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.tests.BankTestKt">
     <configuration name="PersonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ObjectOrientationFundamentalsInKotlin" />
       <option name="VM_PARAMETERS" />
@@ -149,8 +185,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tests.BankTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="ObjectOrientationFundamentalsInKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tests.BankTestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.tests.BankTestKt" />
         <item itemvalue="Kotlin.PersonKt" />
       </list>
     </recent_temporary>
@@ -166,7 +216,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615422070522</updated>
       <workItem from="1615422071844" duration="1214000" />
-      <workItem from="1615475498110" duration="3063000" />
+      <workItem from="1615475498110" duration="4195000" />
     </task>
     <task id="LOCAL-00001" summary="updated to apply the private modifier to set function of cpf property">
       <created>1615477253881</created>
@@ -182,17 +232,24 @@
       <option name="project" value="LOCAL" />
       <updated>1615478278050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add some comments about data class">
+      <created>1615478786999</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615478786999</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4277000" />
+    <option name="totallyTimeSpent" value="5409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -202,7 +259,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32904148" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -212,7 +269,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32952926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -230,7 +287,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated to apply the private modifier to set function of cpf property" />
     <MESSAGE value="Created class account and the functions deposit and withdraw" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class account and the functions deposit and withdraw" />
+    <MESSAGE value="Add some comments about data class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some comments about data class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -250,7 +308,28 @@
     <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Account.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/tests/BankTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/tests/BankTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Bank.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
