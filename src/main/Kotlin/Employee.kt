@@ -5,6 +5,13 @@ abstract class Employee(
     override var cpf: String,
     var wage: BigDecimal
 ): Person(name, cpf){
-    abstract fun calculateDescont()
+    protected abstract fun calculateBonus(): BigDecimal
+
+    override fun toString(): String  = """
+        name: $name
+        cpf: $cpf
+        wage: $wage
+        bonus: ${calculateBonus()}
+        """.trimIndent()
 }
 
