@@ -12,3 +12,9 @@ class Account(val agency: String,
         balance -= value
     }
 }
+
+// Data class - store data that once has been created, it can be modified
+// Data class can be an abstract class
+// Data class can implement interface
+// Data class has all the primary constructors has to be initialized
+// Data class is passed by copying instead of reference

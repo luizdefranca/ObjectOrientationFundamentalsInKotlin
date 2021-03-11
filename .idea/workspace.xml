@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b86f41d-012a-4f02-a117-4d37fd2fa0da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Kotlin/Account.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Kotlin/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Kotlin/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Kotlin/Account.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Kotlin/Account.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Account.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="285">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -119,7 +118,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615478203500" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615478734589" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -167,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615422070522</updated>
       <workItem from="1615422071844" duration="1214000" />
-      <workItem from="1615475498110" duration="2463000" />
+      <workItem from="1615475498110" duration="3063000" />
     </task>
     <task id="LOCAL-00001" summary="updated to apply the private modifier to set function of cpf property">
       <created>1615477253881</created>
@@ -176,17 +175,24 @@
       <option name="project" value="LOCAL" />
       <updated>1615477253881</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created class account and the functions deposit and withdraw">
+      <created>1615478278050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615478278050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3677000" />
+    <option name="totallyTimeSpent" value="4277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -206,7 +212,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32952926" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32952926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -223,7 +229,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated to apply the private modifier to set function of cpf property" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated to apply the private modifier to set function of cpf property" />
+    <MESSAGE value="Created class account and the functions deposit and withdraw" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created class account and the functions deposit and withdraw" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -242,8 +249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Account.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
         </state>
       </provider>
     </entry>
