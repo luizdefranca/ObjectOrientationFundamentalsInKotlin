@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b86f41d-012a-4f02-a117-4d37fd2fa0da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Kotlin/ClientType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Kotlin/tests/ClientTypeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Kotlin/Employee.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Kotlin/tests/PersonTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Kotlin/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Kotlin/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Kotlin/tests/ClientTypeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Kotlin/tests/ClientTypeTestEnum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ObjectOrientationFundamentalsInKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/ObjectOrientationFundamentalsInKotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PersonKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PersonKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +33,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Person.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Employee.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -61,11 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Kotlin/tests/ClientTypeTest.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Kotlin/tests/ClientTypeTestEnum.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Kotlin/tests/PersonTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#15#101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,10 +110,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="Enum" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -98,7 +124,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/Kotlin/Person.kt" />
         <option value="$PROJECT_DIR$/src/main/Kotlin/Account.kt" />
         <option value="$PROJECT_DIR$/src/main/Kotlin/tests/BankTest.java" />
         <option value="$PROJECT_DIR$/src/main/Kotlin/tests/BankTest.kt" />
@@ -106,6 +131,9 @@
         <option value="$PROJECT_DIR$/src/main/Kotlin/ClientType.java" />
         <option value="$PROJECT_DIR$/src/main/Kotlin/ClientType.kt" />
         <option value="$PROJECT_DIR$/src/main/Kotlin/tests/ClientTypeTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/Kotlin/Functionary.kt" />
+        <option value="$PROJECT_DIR$/src/main/Kotlin/Person.kt" />
+        <option value="$PROJECT_DIR$/src/main/Kotlin/tests/PersonTest.kt" />
       </list>
     </option>
   </component>
@@ -172,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615480851659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615492321502" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -189,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.tests.ClientTypeTestKt">
+  <component name="RunManager" selected="Kotlin.tests.PersonTestKt">
     <configuration name="PersonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ObjectOrientationFundamentalsInKotlin" />
       <option name="VM_PARAMETERS" />
@@ -216,14 +244,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tests.ClientTypeTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="tests.ClientTypeTestEnumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ObjectOrientationFundamentalsInKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tests.ClientTypeTestKt" />
+      <option name="MAIN_CLASS_NAME" value="tests.ClientTypeTestEnumKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests.PersonTestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="ObjectOrientationFundamentalsInKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tests.PersonTestKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,7 +272,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.tests.ClientTypeTestKt" />
+        <item itemvalue="Kotlin.tests.PersonTestKt" />
+        <item itemvalue="Kotlin.tests.ClientTypeTestEnumKt" />
         <item itemvalue="Kotlin.tests.BankTestKt" />
         <item itemvalue="Kotlin.PersonKt" />
       </list>
@@ -248,7 +290,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615422070522</updated>
       <workItem from="1615422071844" duration="1214000" />
-      <workItem from="1615475498110" duration="5106000" />
+      <workItem from="1615475498110" duration="8546000" />
     </task>
     <task id="LOCAL-00001" summary="updated to apply the private modifier to set function of cpf property">
       <created>1615477253881</created>
@@ -278,17 +320,24 @@
       <option name="project" value="LOCAL" />
       <updated>1615479819971</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created enum class PersonType and the file PersonTypeTest for testing the enum class PersonType.">
+      <created>1615480924861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615480924861</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6320000" />
+    <option name="totallyTimeSpent" value="9760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -298,7 +347,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -308,7 +357,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32952926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -328,20 +377,14 @@
     <MESSAGE value="Created class account and the functions deposit and withdraw" />
     <MESSAGE value="Add some comments about data class" />
     <MESSAGE value="Created class bank and file BankTest for testing the class bank." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class bank and file BankTest for testing the class bank." />
+    <MESSAGE value="Created enum class PersonType and the file PersonTypeTest for testing the enum class PersonType." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created enum class PersonType and the file PersonTypeTest for testing the enum class PersonType." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Person.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -383,10 +426,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/tests/ClientTypeTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/tests/ClientTypeTestEnum.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Employee.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/Person.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Kotlin/tests/PersonTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
